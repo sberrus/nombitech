@@ -3,7 +3,7 @@ import React from 'react'
 const CTASection = () => {
     return (
         <section className="bg-white dark:bg-gray-900">
-            <div className="container px-4 py-16 mx-auto lg:flex lg:items-center lg:justify-between min-h-96">
+            <div className="container px-4 py-16 mx-auto lg:flex lg:items-center lg:justify-between min-h-96 max-w-7xl">
                 <h2 className="text-2xl font-semibold tracking-tight text-gray-800 xl:text-3xl dark:text-white">
                     Join us and get the update from anywhere
                 </h2>
