@@ -1,6 +1,13 @@
 import type { Metadata } from "next";
+import { Source_Code_Pro } from "next/font/google"
 // import localFont from "next/font/local"; // using this to import fonts reachable in /public
 import "./globals.css";
+
+// import font
+const SCPro = Source_Code_Pro({
+  subsets: ["latin"],
+  display: "swap"
+})
 
 export const metadata: Metadata = {
   title: "NombiTech",
@@ -14,9 +21,9 @@ export default function RootLayout({
 }>) {
 
   return (
-    <html lang="en" className="dark">
+    <html lang="en" className={`dark ${SCPro.className}`} >
       <body
-        className="dark:bg-gray-950 text-gray-200"
+        className="dark:bg-neutral-900 text-gray-200"
       >
         {children}
       </body>
