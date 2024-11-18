@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Source_Code_Pro } from "next/font/google"
+import { Source_Sans_3 } from "next/font/google"
 // import localFont from "next/font/local"; // using this to import fonts reachable in /public
 import "./globals.css";
 
 // import font
-const SCPro = Source_Code_Pro({
+const SCPro = Source_Sans_3({
   subsets: ["latin"],
   display: "swap"
 })

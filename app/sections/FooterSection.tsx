@@ -15,7 +15,7 @@ const FooterSection = () => {
 
                             <div className="flex mt-6 -mx-2">
                                 <a href="#"
-                                    className="mx-2 text-neutral-600 transition-colors duration-300 dark:text-neutral-300 hover:text-blue-500 dark:hover:text-blue-400"
+                                    className="mx-2 text-neutral-600 transition-colors duration-300 dark:text-neutral-300 hover:text-primary-500 dark:hover:text-primary-400"
                                     aria-label="Reddit">
                                     <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -25,7 +25,7 @@ const FooterSection = () => {
                                 </a>
 
                                 <a href="#"
-                                    className="mx-2 text-neutral-600 transition-colors duration-300 dark:text-neutral-300 hover:text-blue-500 dark:hover:text-blue-400"
+                                    className="mx-2 text-neutral-600 transition-colors duration-300 dark:text-neutral-300 hover:text-primary-500 dark:hover:text-primary-400"
                                     aria-label="Facebook">
                                     <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -35,7 +35,7 @@ const FooterSection = () => {
                                 </a>
 
                                 <a href="#"
-                                    className="mx-2 text-neutral-600 transition-colors duration-300 dark:text-neutral-300 hover:text-blue-500 dark:hover:text-blue-400"
+                                    className="mx-2 text-neutral-600 transition-colors duration-300 dark:text-neutral-300 hover:text-primary-500 dark:hover:text-primary-400"
                                     aria-label="Github">
                                     <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path
